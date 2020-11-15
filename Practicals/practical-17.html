@@ -63,18 +63,18 @@
 			var second = clock.getSeconds();
 
 			if (hours >5 && hours<=12) {
-				document.body.style.backgroundImage = "url('images/morning.jpg')";
+				document.body.style.backgroundImage = "url('../images/morning.jpg')";
 				document.body.style.backgroundSize = "100% 100vh";
 				welcome_text.innerHTML = "GOOD MORNING";
 			}
 			else if (hours>12 && hours<=18){
-				document.body.style.backgroundImage = "url('images/afternoon.jpg')";
+				document.body.style.backgroundImage = "url('../images/afternoon.jpg')";
 				document.body.style.backgroundSize = "100% 100vh";
 				welcome_text.innerHTML = "GOOD AFTERNOON";
 				name1.style.color = "lightgrey";
 			}
 			else{
-				document.body.style.backgroundImage = "url('images/night.jpeg')";
+				document.body.style.backgroundImage = "url('../images/night.jpeg')";
 				document.body.style.backgroundSize = "100% 100vh";
 				welcome_text.innerHTML = "GOOD NIGHT";
 				time.style.color = "white";
